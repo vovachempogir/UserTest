@@ -7,5 +7,4 @@ class UserTestApplicationTests {
     @Test
     void contextLoads() {
     }
-
 }

@@ -3,7 +3,6 @@ package com.example.usertest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 public class UserTest {
     private String login = "login";
@@ -32,4 +31,5 @@ public class UserTest {
     public void shouldLoginAndEmailWereDifferent (){
         Assertions.assertThrows(IllegalArgumentException.class, ()-> new User("login", "login"));
     }
+
 }
